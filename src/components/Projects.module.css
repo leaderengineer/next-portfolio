@@ -1,0 +1,324 @@
+.projectsSection {
+    padding: 5rem 0;
+    background: #f8fafc;
+}
+
+.projectsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.projectsHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.projectsTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+.projectsSubtitle {
+    font-size: 1.125rem;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.filterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.filterButton,
+.activeFilterButton {
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1.5px solid #e2e8f0;
+    background: #ffffff;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.4, 0, .2, 1);
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+.filterButton:hover {
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+    transform: translateY(-2px);
+}
+
+.activeFilterButton {
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.12);
+    transform: none;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.activeFilterButton:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #6d28d9 100%);
+    color: #fff;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.18);
+    transform: translateY(-2px);
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.projectCard {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.projectCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-color: #2563eb;
+}
+
+.projectImage {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e0e7ff 0%, #ede9fe 100%);
+    position: relative;
+}
+
+.projectIcon {
+    width: 4rem;
+    height: 4rem;
+    color: #2563eb;
+}
+
+.projectContent {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1e293b;
+}
+
+.projectDesc {
+    color: #64748b;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.projectTechs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectTech {
+    padding: 0.25rem 0.75rem;
+    background: #dbeafe;
+    color: #2563eb;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid #bfdbfe;
+}
+
+.projectActions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: auto;
+}
+
+.projectLiveBtn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.projectLiveBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.2);
+}
+
+.projectGithubBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e2e8f0;
+    color: #475569;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projectGithubBtn:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.projectActionIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.projectsCta {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.projectsCtaBox {
+    background: linear-gradient(135deg, #f1f5ff 0%, #f3e8ff 100%);
+    padding: 2.5rem;
+    border-radius: 16px;
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #e0e7ff;
+}
+
+.projectsCtaTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+.projectsCtaDesc {
+    color: #64748b;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.projectsCtaBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    color: #ffffff;
+    border-radius: 999px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.projectsCtaBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+.projectsCtaBtnIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .projectsGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .filterButtons {
+        gap: 0.75rem;
+    }
+
+    .filterButton,
+    .activeFilterButton {
+        padding: 0.5rem 1rem;
+        font-size: 0.95rem;
+        min-width: 90px;
+    }
+
+    .projectsTitle {
+        font-size: 2rem;
+    }
+
+    .projectsSubtitle {
+        font-size: 1rem;
+    }
+
+    .projectCard {
+        margin: 0 0.5rem;
+    }
+
+    .projectsCtaBox {
+        padding: 2rem 1.5rem;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projectsContainer {
+        padding: 0 1rem;
+    }
+
+    .filterButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectActions {
+        flex-direction: column;
+    }
+
+    .projectLiveBtn,
+    .projectGithubBtn {
+        width: 100%;
+    }
+}

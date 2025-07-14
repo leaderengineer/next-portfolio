@@ -6,7 +6,7 @@ import { User, MapPin, Calendar, Mail, Phone } from 'lucide-react'
 const About = () => {
     const personalInfo = [
         { icon: User, label: 'Ism', value: 'Nodirbek Toshpulatov' },
-        { icon: MapPin, label: "Manzil", value: "Toshkent, O'zbekiston" },
+        { icon: MapPin, label: 'Manzil', value: "Toshkent, O'zbekiston" },
         { icon: Calendar, label: "Tug'ilgan sana", value: '2001 yil' },
         { icon: Mail, label: 'Email', value: 'microsoftreact@gmail.com' },
         { icon: Phone, label: 'Telefon', value: '+998 91 119 20 19' },

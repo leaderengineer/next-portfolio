@@ -33,7 +33,7 @@ const Footer = () => {
                         <div className={styles.brandLogo}>NT</div>
                         <p className={styles.brandDesc}>
                             Zamonaviy web texnologiyalari bilan ishlaydigan tajribali dasturchi.
-                            Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o'rganaman.
+                            Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o{"'"}rganaman.
                         </p>
                         <div className={styles.socials}>
                             {[

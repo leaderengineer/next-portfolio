@@ -6,8 +6,8 @@ import { User, MapPin, Calendar, Mail, Phone } from 'lucide-react'
 const About = () => {
     const personalInfo = [
         { icon: User, label: 'Ism', value: 'Nodirbek Toshpulatov' },
-        { icon: MapPin, label: 'Manzil', value: "Toshkent, O'zbekiston" },
-        { icon: Calendar, label: "Tug'ilgan sana", value: '2001 yil' },
+        { icon: MapPin, label: 'Manzil', value: 'Toshkent, O&apos;zbekiston' },
+        { icon: Calendar, label: 'Tug&apos;ilgan sana', value: '2001 yil' },
         { icon: Mail, label: 'Email', value: 'microsoftreact@gmail.com' },
         { icon: Phone, label: 'Telefon', value: '+998 91 119 20 19' },
     ]
@@ -38,11 +38,11 @@ const About = () => {
             <div className={styles['about-inner']}>
                 <h2 className={styles['about-title']}><span className="gradient-text">Haqida</span></h2>
                 <p className={styles['about-desc']}>
-                    Men zamonaviy web texnologiyalari bilan ishlaydigan tajribali dasturchiman. Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o'rganaman.
+                    Men zamonaviy web texnologiyalari bilan ishlaydigan tajribali dasturchiman. Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o&apos;rganaman.
                 </p>
                 <div className={styles['about-grid']}>
                     <div className={styles['about-info']}>
-                        <div className={styles['about-info-title']}>Shaxsiy ma'lumotlar</div>
+                        <div className={styles['about-info-title']}>Shaxsiy ma&apos;lumotlar</div>
                         <div className={styles['about-info-list']}>
                             {personalInfo.map((info) => (
                                 <div key={info.label} className={styles['about-info-item']}>

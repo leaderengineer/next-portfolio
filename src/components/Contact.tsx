@@ -80,10 +80,10 @@ const Contact = () => {
                     className={styles.contactHeader}
                 >
                     <h2 className={styles.contactTitle}>
-                        <span className="gradient-text">Bog'lanish</span>
+                        <span className="gradient-text">Bog&apos;lanish</span>
                     </h2>
                     <p className={styles.contactSubtitle}>
-                        Loyihangiz ustida ishlash yoki savollaringiz bo'sa, bemalol bog'laning.
+                        Loyihangiz ustida ishlash yoki savollaringiz bo&apos;sa, bemalol bog&apos;laning.
                         Men 24 soat ichida javob beraman.
                     </p>
                 </motion.div>
@@ -98,7 +98,7 @@ const Contact = () => {
                         className={styles.contactInfo}
                     >
                         <div>
-                            <h3 className={styles.contactInfoTitle}>Bog'lanish ma'lumotlari</h3>
+                            <h3 className={styles.contactInfoTitle}>Bog&apos;lanish ma&apos;lumotlari</h3>
                             <div className={styles.contactInfoList}>
                                 {contactInfo.map((info, index) => (
                                     <motion.a
@@ -195,7 +195,7 @@ const Contact = () => {
                                 className={styles.errorMessage}
                             >
                                 <AlertCircle size={20} />
-                                <span>Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.</span>
+                                <span>Xatolik yuz berdi. Iltimos, qaytadan urinib ko&apos;ring.</span>
                             </motion.div>
                         )}
 

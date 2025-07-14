@@ -9,10 +9,10 @@ import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-reac
 import styles from './Contact.module.css'
 
 const contactSchema = z.object({
-    name: z.string().min(2, 'Ism kamida 2 ta harf bo&apos;lishi kerak'),
-    email: z.string().email('To&apos;g&apos;ri email manzil kiriting'),
-    subject: z.string().min(5, 'Mavzu kamida 5 ta harf bo&apos;lishi kerak'),
-    message: z.string().min(10, 'Xabar kamida 10 ta harf bo&apos;lishi kerak')
+    name: z.string().min(2, "Ism kamida 2 ta harf bo'lishi kerak"),
+    email: z.string().email("To'g'ri email manzil kiriting"),
+    subject: z.string().min(5, "Mavzu kamida 5 ta harf bo'lishi kerak"),
+    message: z.string().min(10, "Xabar kamida 10 ta harf bo'lishi kerak")
 })
 
 type ContactFormData = z.infer<typeof contactSchema>
@@ -64,7 +64,7 @@ const Contact = () => {
         {
             icon: MapPin,
             title: 'Manzil',
-            value: 'Farg&apos;ona, O&apos;zbekiston',
+            value: "Farg'ona, O'zbekiston",
             href: '#'
         }
     ]
@@ -80,10 +80,10 @@ const Contact = () => {
                     className={styles.contactHeader}
                 >
                     <h2 className={styles.contactTitle}>
-                        <span className="gradient-text">Bog&apos;lanish</span>
+                        <span className="gradient-text">Bog'lanish</span>
                     </h2>
                     <p className={styles.contactSubtitle}>
-                        Loyihangiz ustida ishlash yoki savollaringiz bo&apos;sa, bemalol bog&apos;laning.
+                        Loyihangiz ustida ishlash yoki savollaringiz bo'sa, bemalol bog'laning.
                         Men 24 soat ichida javob beraman.
                     </p>
                 </motion.div>
@@ -98,7 +98,7 @@ const Contact = () => {
                         className={styles.contactInfo}
                     >
                         <div>
-                            <h3 className={styles.contactInfoTitle}>Bog&apos;lanish ma&apos;lumotlari</h3>
+                            <h3 className={styles.contactInfoTitle}>Bog'lanish ma'lumotlari</h3>
                             <div className={styles.contactInfoList}>
                                 {contactInfo.map((info, index) => (
                                     <motion.a

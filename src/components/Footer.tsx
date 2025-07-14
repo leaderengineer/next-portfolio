@@ -87,7 +87,6 @@ const Footer = () => {
                             ))}
                         </ul>
                     </motion.div>
-
                     {/* Services */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

@@ -195,7 +195,7 @@ const Contact = () => {
                                 className={styles.errorMessage}
                             >
                                 <AlertCircle size={20} />
-                                <span>Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.</span>
+                                <span>Xatolik yuz berdi. Iltimos, qaytadan urinib ko{"'"}ring.</span>
                             </motion.div>
                         )}
 

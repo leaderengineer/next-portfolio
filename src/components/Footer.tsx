@@ -33,7 +33,7 @@ const Footer = () => {
                         <div className={styles.brandLogo}>NT</div>
                         <p className={styles.brandDesc}>
                             Zamonaviy web texnologiyalari bilan ishlaydigan tajribali dasturchi.
-                            Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o'rganaman.
+                            Har bir loyihada eng yaxshi natijalarni olish uchun doim yangi texnologiyalarni o&apos;rganaman.
                         </p>
                         <div className={styles.socials}>
                             {[
@@ -72,8 +72,8 @@ const Footer = () => {
                                 { name: 'Bosh sahifa', href: '#home' },
                                 { name: 'Haqida', href: '#about' },
                                 { name: 'Loyihalar', href: '#projects' },
-                                { name: 'Ko\'nikmalar', href: '#skills' },
-                                { name: 'Bog\'lanish', href: '#contact' }
+                                { name: 'Ko&apos;nikmalar', href: '#skills' },
+                                { name: 'Bog&apos;lanish', href: '#contact' }
                             ].map((link) => (
                                 <li key={link.name}>
                                     <motion.button

@@ -192,7 +192,7 @@ const Projects = () => {
                                             className={styles.projectLiveBtn}
                                         >
                                             <Eye className={styles.projectActionIcon} />
-                                            Ko'rish
+                                            Ko&apos;rish
                                         </motion.a>
                                         <motion.a
                                             whileHover={{ scale: 1.05 }}
@@ -232,7 +232,7 @@ const Projects = () => {
                             className={styles.projectsCtaBtn}
                         >
                             <ExternalLink className={styles.projectsCtaBtnIcon} />
-                            Bog'lanish
+                            Bog&apos;lanish
                         </motion.button>
                     </div>
                 </motion.div>

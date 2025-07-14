@@ -68,7 +68,7 @@ const Hero = () => {
                 </p>
                 <div className={styles['hero-cta']}>
                     <button onClick={scrollToContact} className={styles['hero-cta-btn']}>
-                        <Mail size={20} /> Bog'lanish
+                        <Mail size={20} /> Bog&apos;lanish
                     </button>
                     <button onClick={downloadCV} className={`${styles['hero-cta-btn']} ${styles.secondary}`}>
                         <Download size={20} /> CV yuklab olish

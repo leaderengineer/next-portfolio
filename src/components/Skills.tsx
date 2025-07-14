@@ -89,7 +89,7 @@ const Skills = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className={styles.gradientText}>Ko&apos;nikmalar</span>
+                    <span className={styles.gradientText}>Ko'nikmalar</span>
                 </motion.h2>
 
                 <motion.p
@@ -98,7 +98,7 @@ const Skills = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1 }}
                 >
-                    Zamonaviy web texnologiyalari va dasturlash tillarida kuchli bilimga ega. Har bir texnologiyani chuqur o&apos;rganib, amaliy loyihalarda qo&apos;llayman.
+                    Zamonaviy web texnologiyalari va dasturlash tillarida kuchli bilimga ega. Har bir texnologiyani chuqur o'rganib, amaliy loyihalarda qo'llayman.
                 </motion.p>
 
                 <div className={styles.skillsGrid}>
@@ -203,7 +203,7 @@ const Skills = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    <h3 className={styles.sectionTitle}>Qo&apos;shimcha ko&apos;nikmalar</h3>
+                    <h3 className={styles.sectionTitle}>Qo'shimcha ko'nikmalar</h3>
                     <div className={styles.extraSkillsGrid}>
                         {extraSkills.map((skill, index) => (
                             <motion.div
